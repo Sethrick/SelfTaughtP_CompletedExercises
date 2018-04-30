@@ -1,0 +1,71 @@
+seth@Anglachel:~$ ssh -i /home/seth/Documents/KeyPair1.pem ubuntu@ec2-13-59-68-15.us-east-2.compute.amazonaws.com
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-1052-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+44 packages can be updated.
+13 updates are security updates.
+
+
+Last login: Tue Apr 10 16:43:46 2018 from 98.175.193.27
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-23-86:~$ echo Hello World!
+Hello World!
+ubuntu@ip-172-31-23-86:~$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello World!")
+Hello World!
+>>> exit()
+ubuntu@ip-172-31-23-86:~$ history
+    1  echo Hello World!
+    2  python3
+    3  history
+    4  ifconfig
+    5  ping opendoormission.org
+    6  pwd
+    7  ls
+    8  ls -a
+    9  ls
+   10  ..
+   11  cd ..
+   12  ls
+   13  cd ubuntu
+   14  cd ..
+   15  cd /home/ubuntu
+   16  clear
+   17  man shutdown
+   18  shutdown
+   19  exit
+   20  echo Hello World!
+   21  python3
+   22  history
+ubuntu@ip-172-31-23-86:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-23-86:~$ cd ..
+ubuntu@ip-172-31-23-86:/home$ pwd
+/home
+ubuntu@ip-172-31-23-86:/home$ cd ubuntu
+ubuntu@ip-172-31-23-86:~$ cd ..
+ubuntu@ip-172-31-23-86:/home$ cd /home/ubuntu
+ubuntu@ip-172-31-23-86:~$ cd ..
+ubuntu@ip-172-31-23-86:/home$ ls
+ubuntu
+ubuntu@ip-172-31-23-86:/home$ cd ubuntu
+ubuntu@ip-172-31-23-86:~$ mkdir tstp
+ubuntu@ip-172-31-23-86:~$ ls
+tstp
+ubuntu@ip-172-31-23-86:~$ cd tstp
+ubuntu@ip-172-31-23-86:~/tstp$ cd ..
+ubuntu@ip-172-31-23-86:~$ rmdir tstp
+ubuntu@ip-172-31-23-86:~$ ls
+ubuntu@ip-172-31-23-86:~$ 
+

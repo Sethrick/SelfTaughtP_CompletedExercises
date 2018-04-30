@@ -1,0 +1,168 @@
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep Match
+^C
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> findall(Match)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'findall' is not defined
+>>> import re
+>>> matches = re.findall("Match", /media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer)
+  File "<stdin>", line 1
+    matches = re.findall("Match", /media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer)
+                                  ^
+SyntaxError: invalid syntax
+>>> exit()
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ find /media/seth/Anglachel_1/Seth_Docum
+ents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer -name "*Match*"
+/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp196_Ch17_ASimpleMatch.txt
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep "zen" SelfTaughtP_pp195_Ch17_Setup
+grep: SelfTaughtP_pp195_Ch17_Setup: No such file or directory
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep "zen" SelfTaughtP_pp195_Ch17_Setup
+.txt
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ touch zen.txt
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ ls
+__pycache__
+SelfTaughtP_pp010_Ch02_HelloWorld.py
+SelfTaughtP_pp013_Ch03_ExampleFormat.py
+SelfTaughtP_pp014_Ch03_Comments.py
+SelfTaughtP_pp015_Ch03_Printing.py
+SelfTaughtP_pp016_Ch03_Lines.py
+SelfTaughtP_pp017_Ch03_Spacing.py
+SelfTaughtP_pp018_Ch03_DataTypes.py
+SelfTaughtP_pp020_Ch03_ConstantsAndVariables.py
+SelfTaughtP_pp024_Ch03_SyntaxRules_ErrorsExceptions.py
+SelfTaughtP_pp026_Ch03_ArithmeticOperators.py
+SelfTaughtP_pp029_Ch03_ComparisonOperators.py
+SelfTaughtP_pp032_Ch03_LogicalOperators.py
+SelfTaughtP_pp035_Ch03_ConditionalStatements.py
+SelfTaughtP_pp040_Ch03_Statements.py
+SelfTaughtP_pp044_Ch03_Challenges.py
+SelfTaughtP_pp048_Ch04_DefiningFunctions.py
+SelfTaughtP_pp051_Ch04_BuiltInFunctions.py
+SelfTaughtP_pp054_Ch04_ReusingFunctions.py
+SelfTaughtP_pp056_Ch04_RequiredVsOptionalParameters.py
+SelfTaughtP_pp057_Ch04_Scope.py
+SelfTaughtP_pp060_Ch04_ExceptionHandling.py
+SelfTaughtP_pp064_Ch04_Docstrings.py
+SelfTaughtP_pp065_Ch04_OnlyUseAVariableWhenNeeded.py
+SelfTaughtP_pp066_Ch04_Challenges.py
+SelfTaughtP_pp067_Ch05_Methods.py
+SelfTaughtP_pp068_Ch05_Lists.py
+SelfTaughtP_pp073_Ch05_Tuples.py
+SelfTaughtP_pp076_Ch05_Dictionaries.py
+SelfTaughtP_pp080_Ch05_ContainersInContainers.py
+SelfTaughtP_pp085_Ch05_Challenges.py
+SelfTaughtP_pp087_Ch06_StringManipulation1.py
+SelfTaughtP_pp090_Ch06_StringManipulation2.py
+SelfTaughtP_pp092_Ch06_StringManipulation3.py
+SelfTaughtP_pp095_Ch06_StringManipulation4.py
+SelfTaughtP_pp098_Ch06_StringManipulation5.py
+SelfTaughtP_pp100_Ch06_Challenges.py
+SelfTaughtP_pp103_Ch07_For-Loops.py
+SelfTaughtP_pp107_Ch07_Range.py
+SelfTaughtP_pp108_Ch07_While-Loops.py
+SelfTaughtP_pp109_Ch07_Break.py
+SelfTaughtP_pp111_Ch07_Continue.py
+SelfTaughtP_pp112_Ch07_NestedLoops.py
+SelfTaughtP_pp114_Ch07_Challenges.py
+SelfTaughtP_pp117_Ch08_ImportingBuiltInModules.py
+SelfTaughtP_pp119_Ch8_ImportingOtherModules
+SelfTaughtP_pp121_Ch08_Challenges2.py
+SelfTaughtP_pp121_Ch08_Challenges.py
+SelfTaughtP_pp123_Ch09_WritingToFiles.py
+SelfTaughtP_pp124_Ch09_AutomaticallyClosingFiles.py
+SelfTaughtP_pp126_Ch09_CSV_Files2.py
+SelfTaughtP_pp126_Ch09_CSV_Files.py
+SelfTaughtP_pp128_Ch09_Challenges.py
+SelfTaughtP_pp132_Ch10_Hangman.py
+SelfTaughtP_pp136_Ch10_Challenges.py
+SelfTaughtP_pp139_Ch12_ProceduralProgramming.py
+SelfTaughtP_pp141_Ch12_FunctionalProgramming.py
+SelfTaughtP_pp143_Ch12_ObjectOrientedProgramming.py
+SelfTaughtP_pp149_Ch12_Challenges.py
+SelfTaughtP_pp151_Ch13_Encapsulation.py
+SelfTaughtP_pp154_Ch13_AbstractionPolymorphism.py
+SelfTaughtP_pp156_Ch13_Inheritance.py
+SelfTaughtP_pp160_Ch13_Composition.py
+SelfTaughtP_pp162_Ch13_Challenges.py
+SelfTaughtP_pp163_Ch14_ClassVsInstanceVariables.py
+SelfTaughtP_pp166_Ch14_MagicMethods.py
+SelfTaughtP_pp168_Ch14_Is.py
+SelfTaughtP_pp169_Ch14_Challenges.py
+SelfTaughtP_pp171_Ch15_BringingItAllTogether.py
+SelfTaughtP_pp183_Ch16_BashCodeDay_1.txt
+SelfTaughtP_pp183_Ch16_BashCodeDay_2.txt
+SelfTaughtP_pp190_Ch16_BashCodeDay_3.txt
+SelfTaughtP_pp195_Ch17_Setup.txt
+SelfTaughtP_pp196_Ch17_ASimpleMatch.txt
+Testing_Sandbox
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep "zen" SelfTaughtP_pp195_Ch17_Setup
+.txt
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ touch zen.txt
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep "idea.^" SelfTaughtP_pp195_Ch17_Setup.txt
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep "idea.$" SelfTaughtP_pp195_Ch17_Setup.txt
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep "^If" SelfTaughtP_pp195_Ch17_Setup.txt
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ 
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import re
+>>> test = this/nis/na/ntest
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'this' is not defined
+>>> test = "this/nis/na/ntest"
+>>> print(test)
+this/nis/na/ntest
+>>> this = "this\nis\na\ntest"
+>>> print(this)
+this
+is
+a
+test
+>>> m = re.findall("^t", test, re.MULTILINE)
+>>> print(m)
+['t']
+>>> m = re.findall("t", test, re.MULTILINE)
+>>> print(m
+... 
+[1]+  Stopped                 python3
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ print(m)
+bash: syntax error near unexpected token `m'
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print(test = "this\nis\na\ntest)
+  File "<stdin>", line 1
+    print(test = "this\nis\na\ntest)
+                                   ^
+SyntaxError: EOL while scanning string literal
+>>> print(test = "this\nis\na\ntest")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'test' is an invalid keyword argument for this function
+>>> test = "this\nis\na\ntest"
+>>> print(test)
+this
+is
+a
+test
+>>> import re
+>>> m = re.findall("^t", test, re.MULTILINE)
+>>> print(m)
+['t', 't']
+>>> n = re.findall("t", test, re.MULTILINE)
+>>> print(n)
+['t', 't', 't']
+>>> exit()
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ 
+

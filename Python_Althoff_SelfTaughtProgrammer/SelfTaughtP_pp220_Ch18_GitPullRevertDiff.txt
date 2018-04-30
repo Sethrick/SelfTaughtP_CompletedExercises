@@ -1,0 +1,93 @@
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git pull origin 
+master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Sethrick/SelfTaughtP_pp213_Ch18
+ * branch            master     -> FETCH_HEAD
+   e5dd29b..a5c9d85  master     -> origin/master
+Updating e5dd29b..a5c9d85
+Fast-forward
+ new.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ ls
+hangman.py  new.py  README.md
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git log
+commit a5c9d85e61609da88f1692df608fa73e76d6af34
+Author: Sethrick <30534839+Sethrick@users.noreply.github.com>
+Date:   Wed Apr 25 09:15:06 2018 -0500
+
+    pull example
+
+commit e5dd29ba2a73d21fcd1a3c092711d6580a7dc8af
+Author: Sethrick <seth.m.hendrickson@gmail.com>
+Date:   Tue Apr 24 08:40:21 2018 -0500
+
+    my first commit
+
+commit 3dd16e15b05af1cc388b6802613e21a439fe0501
+Author: Sethrick <30534839+Sethrick@users.noreply.github.com>
+Date:   Mon Apr 23 11:21:40 2018 -0500
+
+    Initial commit
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git checkout e5d
+d29ba2a73d21fcd1a3c092711d6580a7dc8af
+Note: checking out 'e5dd29ba2a73d21fcd1a3c092711d6580a7dc8af'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at e5dd29b... my first commit
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git pull origin 
+master
+From https://github.com/Sethrick/SelfTaughtP_pp213_Ch18
+ * branch            master     -> FETCH_HEAD
+Updating e5dd29b..a5c9d85
+Fast-forward
+ new.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ touch hello_worl
+d.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ nano hello_world
+.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git add hello_wo
+rld.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git status
+HEAD detached from e5dd29b
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   hello_world.py
+
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git commit -m "a
+dding hello world file"
+[detached HEAD f7bba74] adding hello world file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git push origin 
+master
+Username for 'https://github.com': Sethrick	
+Password for 'https://Sethrick@github.com': 
+Everything up-to-date
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ nano hello_world
+.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git diff hello_w
+orld.py
+diff --git a/hello_world.py b/hello_world.py
+index 7df869a..203c543 100644
+--- a/hello_world.py
++++ b/hello_world.py
+@@ -1 +1,2 @@
+ print("Hello, World!")
++print("Hello")
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ 
+

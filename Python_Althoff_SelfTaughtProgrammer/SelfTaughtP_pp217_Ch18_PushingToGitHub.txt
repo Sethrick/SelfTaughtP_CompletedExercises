@@ -1,0 +1,96 @@
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ git clone https://github.com/Sethrick/S
+elfTaughtP_pp213_Ch18.git
+Cloning into 'SelfTaughtP_pp213_Ch18'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ cd SelfTaughtP_pp213_Ch18
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git remote -v
+origin	https://github.com/Sethrick/SelfTaughtP_pp213_Ch18.git (fetch)
+origin	https://github.com/Sethrick/SelfTaughtP_pp213_Ch18.git (push)
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	hangman.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git add hangman.
+py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   hangman.py
+
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git reset hangma
+n.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	hangman.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git add hangman.
+py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   hangman.py
+
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git commit -m "m
+y first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'seth@Anglachel.(none)')
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git config --glo
+bal user.email "seth.m.hendrickson@gmail.com"
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git config --glo
+bal user.name "Sethrick"
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git commit -m "m
+y first commit"
+[master e5dd29b] my first commit
+ 1 file changed, 42 insertions(+)
+ create mode 100644 hangman.py
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git push origin 
+master
+Username for 'https://github.com': Sethrick
+Password for 'https://Sethrick@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 733 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Sethrick/SelfTaughtP_pp213_Ch18.git
+   3dd16e1..e5dd29b  master -> master
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer/SelfTaughtP_pp213_Ch18$

@@ -1,0 +1,26 @@
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep Beautiful SelfTaughtP_pp195_Ch17_S
+etup.txt
+Beautiful is better than ugly.
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep beautiful SelfTaughtP_pp195_Ch17_S
+etup.txt
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep -i beautiful SelfTaughtP_pp195_Ch1
+7_Setup.txt
+Beautiful is better than ugly.
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ grep -o -i beautiful SelfTaughtP_pp195_
+Ch17_Setup.txt
+Beautiful
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import re
+>>> l = "Beautiful is better than ugly."
+>>> matches = re.findall("Beautiful", l)
+>>> print(matches)
+['Beautiful']
+>>> matches2 = re.findall("beautiful", l, re.IGNORECASE)
+>>> print(matches2)
+['Beautiful']
+>>> exit()
+seth@Anglachel:/media/seth/Anglachel_1/Seth_Documents/Documents_Current/Technomancy/Python_Althoff_SelfTaughtProgrammer$ 
+

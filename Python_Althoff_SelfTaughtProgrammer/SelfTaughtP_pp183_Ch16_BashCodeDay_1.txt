@@ -1,0 +1,44 @@
+seth@Anglachel:~/Documents$ chmod 400 /home/seth/Documents/KeyPair1.pem
+seth@Anglachel:~/Documents$ ssh -i /home/seth/Documents/KeyPair1.pem ec2-18-221-65-101.us-east-2.compute.amazonaws.com
+Permission denied (publickey).
+seth@Anglachel:~/Documents$ ssh -i /home/seth/Documents/KeyPair1.pem ubuntu@ec2-18-221-65-101.us-east-2.compute.amazonaws.com
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-1052-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+0 packages can be updated.
+0 updates are security updates.
+
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-23-86:~$ echo Hello World!
+Hello World!
+ubuntu@ip-172-31-23-86:~$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello World!")
+Hello World!
+>>> exit()
+ubuntu@ip-172-31-23-86:~$ history
+    1  echo Hello World!
+    2  python3
+    3  history
+ubuntu@ip-172-31-23-86:~$ ^C
+ubuntu@ip-172-31-23-86:~$ 
+

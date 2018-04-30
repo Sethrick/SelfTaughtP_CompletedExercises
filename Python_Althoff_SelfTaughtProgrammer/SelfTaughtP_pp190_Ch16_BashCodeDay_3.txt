@@ -1,0 +1,164 @@
+ubuntu@ip-172-31-23-86:~$ touch .self_taught
+ubuntu@ip-172-31-23-86:~$ ls
+ubuntu@ip-172-31-23-86:~$ ls -a
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .profile  .python_history  .self_taught  .ssh
+ubuntu@ip-172-31-23-86:~$ rm .self_taught
+ubuntu@ip-172-31-23-86:~$ ls -a
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .profile  .python_history  .ssh
+ubuntu@ip-172-31-23-86:~$ ls -a | less
+ubuntu@ip-172-31-23-86:~$ export x=100
+ubuntu@ip-172-31-23-86:~$ echo $x
+100
+ubuntu@ip-172-31-23-86:~$ ls -a
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .profile  .python_history  .ssh
+ubuntu@ip-172-31-23-86:~$ cd ..
+ubuntu@ip-172-31-23-86:/home$ ls
+ubuntu
+ubuntu@ip-172-31-23-86:/home$ ls -a
+.  ..  ubuntu
+ubuntu@ip-172-31-23-86:/home$ cd ubuntu
+ubuntu@ip-172-31-23-86:~$ ls -a
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .profile  .python_history  .ssh
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ export y=200
+ubuntu@ip-172-31-23-86:~$ echo $y
+200
+ubuntu@ip-172-31-23-86:~$ exit
+logout
+Connection to ec2-13-59-68-15.us-east-2.compute.amazonaws.com closed.
+seth@Anglachel:~$ ssh -i /home/seth/Documents/KeyPair1.pem ubuntu@ec2-13-59-68-15.us-east-2.compute.amazonaws.com
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-1052-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+31 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Tue Apr 10 16:49:15 2018 from 98.175.193.27
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-23-86:~$ echo $y
+
+ubuntu@ip-172-31-23-86:~$ echo $x
+
+ubuntu@ip-172-31-23-86:~$ ls -a
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .nano  .profile  .python_history  .ssh
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ echo $x
+
+ubuntu@ip-172-31-23-86:~$ exit
+logout
+Connection to ec2-13-59-68-15.us-east-2.compute.amazonaws.com closed.
+seth@Anglachel:~$ ssh -i /home/seth/Documents/KeyPair1.pem ubuntu@ec2-13-59-68-15.us-east-2.compute.amazonaws.com
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-1052-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+31 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Thu Apr 12 19:16:02 2018 from 98.175.193.27
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-23-86:~$ echo $x
+100
+ubuntu@ip-172-31-23-86:~$ whoami
+ubuntu
+ubuntu@ip-172-31-23-86:~$ echo Self-Taught
+Self-Taught
+ubuntu@ip-172-31-23-86:~$ cd ..
+ubuntu@ip-172-31-23-86:/home$ cd /home/ubuntu
+ubuntu@ip-172-31-23-86:~$ cd ..
+ubuntu@ip-172-31-23-86:/home$ cd ubuntu
+ubuntu@ip-172-31-23-86:~$ ls -a
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .nano  .profile  .python_history  .ssh
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-23-86:~$ mkdir python_projects
+ubuntu@ip-172-31-23-86:~$ ls
+python_projects
+ubuntu@ip-172-31-23-86:~$ cd ..
+ubuntu@ip-172-31-23-86:/home$ cd $py_proj
+ubuntu@ip-172-31-23-86:~$ ls
+python_projects
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ cd ..
+ubuntu@ip-172-31-23-86:/home$ cd $py_proj
+ubuntu@ip-172-31-23-86:~$ cd 
+ubuntu@ip-172-31-23-86:~$ cd $py_proj
+ubuntu@ip-172-31-23-86:~$ cd py_proj
+-bash: cd: py_proj: No such file or directory
+ubuntu@ip-172-31-23-86:~$ echo $py_proj
+
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ echo $py_proj
+
+ubuntu@ip-172-31-23-86:~$ echo py_proj
+py_proj
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ echo $py_proj
+
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ echo $py_proj
+
+ubuntu@ip-172-31-23-86:~$ echo $x
+100
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ echo $py_proj
+
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ echo $x
+100
+ubuntu@ip-172-31-23-86:~$ export py_proj=/home/ubuntu/python_projects
+ubuntu@ip-172-31-23-86:~$ echo $py_proj
+/home/ubuntu/python_projects
+ubuntu@ip-172-31-23-86:~$ cd $py_proj
+ubuntu@ip-172-31-23-86:~/python_projects$ cd ..
+ubuntu@ip-172-31-23-86:~$ nano .profile
+ubuntu@ip-172-31-23-86:~$ exit
+logout
+Connection to ec2-13-59-68-15.us-east-2.compute.amazonaws.com closed.
+seth@Anglachel:~$ ssh -i /home/seth/Documents/KeyPair1.pem ubuntu@ec2-13-59-68-15.us-east-2.compute.amazonaws.com
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-1052-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+31 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Thu Apr 12 19:17:42 2018 from 98.175.193.27
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-23-86:~$ echo $py_proj
+
+ubuntu@ip-172-31-23-86:~$ echo $py_projects
+/home/ubuntu/python_projects
+ubuntu@ip-172-31-23-86:~$ cd $py_projects
+ubuntu@ip-172-31-23-86:~/python_projects$ 
+
